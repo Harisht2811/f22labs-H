@@ -1,0 +1,496 @@
+@media only screen and (min-width:900px) and (max-width:1025px){
+    *{
+        margin:0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+        .navbar{
+            padding: 0 2% 0 3%;
+            width: 100vw;
+        }
+        .nav-mainlinks{
+            padding: 24px 15px;
+        }
+        .homepage hr{
+            margin-left: 174px;
+            width: 680px;
+            margin-bottom: 5px;
+            /* margin-right: 440px; */
+        }
+    
+    .casestudies{
+        height: 650px;
+        padding: 50px 80px 30px ;
+    }
+    .casestudies-heading{
+        width: 70%;
+    }
+    .casestudies-heading h2{
+        font-size: 17px;
+    }
+    .casestudies-heading h1{
+        font-size: 22px;
+    }
+    .casestudies-content{
+        top: 310px;
+        width: 40%;
+        font-size: 14px;
+    }
+    .casestudies-content p{
+        margin-bottom: 50px;
+    }
+    
+      .casestudies-content ul{
+          line-height: 1.2;
+            margin-top: -10px;
+      }
+      .casestudies-content li{
+          margin-top:10px;
+          margin-bottom: 10px;
+          float: left;
+          width: 95%;
+      } 
+    .bullet{
+        margin-top: 12px;
+    }
+      .casestudies-img{
+        bottom: 0;
+        right: 70px;
+        height: 540px;
+        width: 400px;
+    }
+    .casestudies-image{
+        width: 290px;
+        height: 550px;
+        bottom: 60px;
+        right: 120px;
+    
+    }
+    
+    
+    .services{
+        height: 80vh;
+        padding: 5% 5% 5% 13%;
+    }
+    .services h1{
+        color: #fdab4f;
+        width: 470px;
+    }
+    .domains{
+        height: 113vh;
+    }
+    
+    .domainsweworked{
+        padding: 2% 21% 2%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .domains button{
+        width: 250px;
+        margin: 50px 40% 150px;
+        padding: 10px 40px ;
+    }
+    
+    
+    
+    .Featuredprojects{
+        padding: 5% 0% 2% 10%;
+        background-color: #f9f9f9;
+    }
+    .frankproject{
+        right: -3px;
+    }
+    .frankProjectHead img{
+        width: 530px;
+    }
+    .frankproject h2{
+        margin-bottom: 20px;
+        font-family: "sailec-regular";
+    }
+    .frankproject p{
+        letter-spacing: -1px;
+    }
+    .prohead{
+        font-size: 13px;
+        top: 74px;
+        right: 110px;
+    }
+    .frankproject .projectimg{
+        top: 90px;
+        left: -30px;
+        width: 204px;
+    }
+    .skymdproject{
+        left: -106px;
+    }
+    .skymdproject .prohead{
+        font-size: 14px;
+        top: 65px;
+        left: 290px;
+    }
+    .skymdproject p{
+        width: 80%;
+        letter-spacing: -1px;
+        font-family: "sailec-bold";
+    }
+    .skymdproject h2{
+        font-size: 14px;
+        font-family: "sailec-regular";
+    }
+    .skymdproject ul{
+        width: 83%;
+        font-size: 14px;
+    }
+    
+    .skymdproject .projectimg{
+        position: absolute;
+        top: 90px;
+        right: -30px;
+        width: 200px;
+    }
+    
+    .skymdProjectHead{
+        margin-left: -20px;
+    }
+    
+    .skymdDetail{
+        margin-left: -20px;
+    }
+    .skymdProjectContent{
+        margin-left: -20px;
+    }
+    .allprojects{
+        width: 80vw;
+        height: 230px;
+        display: block;
+        text-align: center;
+        margin-left: 0.8vw;
+    }
+    .allprojects p{
+        margin-left: 0px;
+        letter-spacing: -1px;
+    }
+    .allprojects button{
+        margin-top: 45px;
+        margin-right: 0px;
+        font-size: 18px;
+        font-family: "sailec-bold";
+        color: #fff;
+        background-color: black;
+        padding: 10px 40px;
+        height: 50px;
+        border: none;
+    }
+    
+    
+    
+    
+    .expertise{
+        background-color: #fff;
+        height:160vh;
+        text-align: center;
+        padding: 3%;
+    }
+    .ourtech{
+        font-family: 'sailec-bold';
+        font-size: 30px;
+        font-weight: bolder;
+        color:rgb(39, 39, 39);
+    }
+    .ourtechexpertise{
+        margin-left:-80px;
+    }
+    .ourtechworked{
+    
+        padding: 2% ;    
+        display: grid;
+        margin-left: 400px;
+        grid-template-columns: auto auto auto ;
+        
+        }
+    .ourtechworked div{
+        padding-top:30px;
+        font-family: "sailec-bold";
+        padding-bottom: 10px;
+        border: 0.5px solid rgba(229,231,235,0.5);
+        }
+        .ourtechworked img{
+            width:100px;
+            cursor: pointer;
+        }
+        .ourtechworked img:hover{
+            transform: scale(1.1);
+        }
+      
+       .ourtechexpertise{
+           margin-right: 600px;
+           padding: 1%;
+       } 
+        #expert1,#expert4 img{
+     margin-top: 30px;
+        }
+        
+        
+        #expert1,#expert2,#expert3{
+        
+        border-top:none;
+        
+        }
+       
+        #expert1,#expert4,#expert7{
+        
+        border-left: none;
+        flex-wrap: wrap;
+        
+        }
+        
+        #expert3,#expert6,#expert9{
+        
+        border-right:none;
+        
+        }
+        
+        #expert7,#expert8,#expert9{
+        
+        border-bottom:none;
+        
+        }
+        #expert9{
+            font-family: 'sailec-bold';
+            color:#272727;
+            font-size:32px;
+            opacity: 0.2;
+            text-align: center;
+            letter-spacing: normal;
+        }
+       
+       
+        .ourtechexpertise button:hover{
+            background-color: rgb(253, 171, 79);
+            outline: none;
+            border:none;
+           }
+           .ourtechexpertise button{
+               width:250px;
+               margin-top: 50px;
+               margin-left: 450px;
+               height:50px;
+               background-color: black;
+               color:white;
+               border-color: black;
+               font-family: 'sailec-bold';
+               font-size: 16px;
+               padding: 2% 1% 0 2;
+           }
+      .ourteam{
+          display: flex;
+          margin-top: 50px;
+        }  
+      .profiles1{
+          margin-left:1%;
+      }      
+      .ourteam p{
+        width: 85%;
+        margin: 75px 70px 0px;
+       font-family:'sailec-regular';
+       font-size: 14px;
+       color: rgb(39, 39, 39);
+       font-weight: bolder;
+        line-height: 1.8;
+    
+    }
+    .aboutourteam h2{
+      font-family: 'sailec-bold';
+      font-size: 32px;
+      width:400px;
+      color:#272727;
+      margin-top: 20px;
+      margin-left: 30px;
+    }  
+    .expertise1{
+        margin-right: 100px;
+    }
+    .expertise1 button:hover{
+        background-color: rgb(253, 171, 79);
+        outline: none;
+        border:none;
+       }
+       .expertise1 button{
+           width:250px;
+           margin-top: 50px;
+           margin-left: 380px;
+           height:50px;
+           background-color: black;
+           color:white;
+           border-color: black;
+           font-family: 'sailec-bold';
+           font-size: 16px;
+           padding: 2% 1% 0 2;
+           display: block;
+       }
+       
+    .Queries{
+        background-color: white;
+        padding: 0;
+        height: 150vh;
+    }
+    .queries-inner{
+        display:block;
+        width:102vw;
+
+    }
+    .contact{
+        background-color:  rgb(253, 171, 79);
+        width:98vw;
+        margin-left:-40px;
+        padding: 3% 35%;
+    }
+    .contact h2{
+        width:500px;
+        color:white;
+        margin-left: -50px;
+    }
+    .contact br{
+        display: none;
+    }
+    .contact p{
+        width:600px;
+        color:white;
+        font-size: 12px;
+        margin-left: -100px;
+
+    }
+    .profile1{
+        background-color: rgb(249, 249, 249);
+        height:15vh;
+        width:30vw;
+       
+       }
+       #Mobile{
+           color:black;
+       }
+       #Mail{
+        color:black;
+    }
+    .profile1 svg{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .profile1 img{
+        height:50px;
+        width:50px;
+        margin:40% 40%;
+        border-radius: 10px;
+       }
+      .details1{
+          display: block;
+          margin: 20px 0 0 40px;
+          line-height:2;
+      } 
+       
+       .profile2{
+        background-color: rgb(249, 249, 249);
+        height:15vh;
+        width:30vw;
+       
+       }
+       .profile2 svg{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .profile2 img{
+        height:50px;
+        width:50px;
+        margin:40% 40%;
+        border-radius: 10px;
+       }
+      .details2{
+          display: block;
+          margin: 20px 0 0 40px;
+          line-height:2;
+      } 
+     
+         
+    .location{
+        display: none;
+    }
+    
+    .enquiry{
+        background-color: white;
+        margin-top: 50px;
+        
+    }
+   
+    .enquiry input{
+        width:1000px;
+        margin-left:-40px ;
+    }
+    .enquiry textarea{
+        width:1000px;
+        margin-left:-40px;
+    }
+    .enquiry button{
+        width:1000px;
+        margin-left:-40px;
+        margin-top:50px;
+
+    }
+    .phonenumber select{
+        margin-left:-40px;
+    }
+    .phonenumber #contact{
+        width:1200px;
+    }
+    .footer{
+        background-color: black;
+        height:45vh;
+    }
+    .links {
+        text-align: center;
+        padding: 3.5% 10% 0%;
+    }
+    .links li a{
+        font-family: 'sailec-medium';
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+        margin-right: 50px;
+    }
+    #followuson{
+        color:grey;
+        font-family: 'sailec-bold';
+        margin-top:40px;
+        font-size: 15px;
+    }
+   
+    #linkedin{
+        margin-bottom:5px; ;
+    }
+    .links img:hover{
+        opacity: 0.5;
+    }
+    footer hr{
+        margin-top: 30px;
+        background-color: grey;
+        height:3px;
+        border:1px solid
+    }
+    
+    .copyright{
+        color:white;
+        margin-top: 30px;
+        font-family: 'sailec-medium';
+        font-size: 12px;
+    }
+    .rights{
+        color:white;
+        margin-top: 0px;
+        font-family: 'sailec-medium';
+        font-size: 12px;
+    }
+    
+}

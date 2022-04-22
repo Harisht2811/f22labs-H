@@ -1,0 +1,505 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "sailec-thin";
+    src: url('fonts/Thin.ttf');
+
+}
+@font-face {
+    font-family: "sailec-light";
+    src: url('fonts/Light.ttf');
+}
+
+@font-face {
+    font-family: "sailec-regular";
+    src: url('fonts/regular.otf');
+}
+
+@font-face {
+    font-family: "sailec-medium";
+    src: url('fonts/Medium.ttf');
+}
+
+@font-face {
+    font-family: "sailec-bold";
+    src: url('fonts/Bold.ttf');
+}
+
+
+.navbar{
+    display: flex;
+    height: 74px;
+    padding: 0 14.3% 0 12.5%;
+    text-transform: capitalize;
+    background-color: #fff;
+    position: fixed;
+    top: 0.5px;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+}
+.brand{
+    margin: -2px auto 0 0;
+
+}
+
+.brand img{
+    width: 80px;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-family: "sailec-medium";
+    font-size: 18px;
+}
+.nav-mainlinks{
+    padding: 24px 24px;
+
+}
+
+.mediaicon{
+    display: none;
+    width: 60px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.dropdown-content li{
+    list-style-type:none;
+   text-align: center;
+   display: block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -30px;
+    border-radius: 10px;
+    background-color: #fff;
+    list-style-type: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 210px;
+    /* padding: 20px 14px; */
+    margin: 0;
+}
+
+
+.dropdown-content a{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.dropdown-content li:first-child{
+    margin-top: 0;
+    border-radius: 10px 10px 0 0;
+}
+.dropdown-content li:last-child{
+    border-radius: 0 0 10px; 
+
+}
+
+.dropdown-content li{
+    padding: 10px 10px 14px 10px;
+}
+.dropdown{
+    margin-top: 24px;
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content li:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+/* homepage */
+.homepage{
+    background: url("images/background.png") ;
+    height:660px;
+    background-size: contain;
+    width: 100%;
+    text-align: center;
+    padding-top: 250px;
+}
+.homepage h1{
+    font-size: 35px;
+    font-family: "sailec-bold";
+    line-height: 1.5;
+}
+.homepage  hr{
+    border-top: 1px #fdab4f dashed;
+    height: -0px;
+    border-bottom: none;
+    width: 650px;
+    margin-left: 600px;
+    margin-top: -1px;
+   /*  margin-bottom: 0px; */
+}
+.webuildMobApp{
+    color: #fdab4f;
+}
+.homepage button{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "sailec-bold";
+    color: #fff;
+    background-color: black;
+    padding: 10px 75px;
+    border: none;
+}
+
+
+/* casestudies */
+
+.casestudies{
+    position: relative;
+    background-color: rgb(249, 249, 249);
+    height: 680px;
+    z-index: 0;
+    padding: 150px 340px 30px ;
+}
+.casestudies-heading{
+    position: absolute;
+    width: 60%;
+    z-index: 0;
+
+}
+.casestudies-heading h2{
+    color: rgb(139, 139, 139);
+    font-family: "sailec-light";
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.casestudies-heading h1{
+    color: #000;
+    font-family: "sailec-bold";
+    font-weight: 000;
+    font-size: 24px;
+    margin-top: 16px;
+    width: 52%;
+}
+.casestudies-heading img{
+    margin-bottom: 15px;
+
+}
+.casestudies-content{
+    /* display: none; */
+    position: absolute;
+    z-index: 0; 
+    top: 380px;
+    width: 32%;
+    font-size: 14px;
+    font-family: "sailec-medium";
+}
+.casestudies-content p{
+    margin-bottom: 30px;
+}
+.bullet{
+    background-color: rgb(253, 171, 79);
+    padding: 5px;
+    display: inline;
+    margin-top: 16px;
+    margin-right: 10px;
+    float: left;
+    width: 1%;
+    border-radius: 50%;
+}
+
+
+  .casestudies-content ul{
+      list-style-type: none;
+      padding-left: 0;
+      line-height: 3;
+  }
+
+
+.casestudies-img{
+    position: absolute;
+    bottom: 0;
+    right: 332px;
+    z-index: 0;
+    background-color: #fdab4f;
+    border-radius: 150px 150px 0 0;
+    height: 585px;
+    width: 420px;
+}
+.casestudies-image{
+    width: 302px;
+    height: 600px;
+    position: absolute;
+    bottom: 60px;
+    right: 390px;
+    z-index: 0;
+
+}
+
+
+.services{
+    height: 700px;
+    background-color: #000;
+    color: #fff;
+    padding: 6% 20% 6% 20%;
+}
+.service-content{
+    position: relative;
+    height: 505px;
+    background-color: #ffffff0d;
+}
+.services h1{
+    color: #fdab4f;
+    width: 400px;
+    font-family: 'sailec-bold';
+    font-size: 44px;
+    position: absolute;
+    top: 130px;
+    left: -105px;
+}
+
+.listofservices{
+    text-transform: capitalize;
+    font-family: 'sailec-bold';
+    float: right;
+    margin-right:50px;
+    padding-top: 40px;
+    font-size: 22px;
+}
+
+.listofservices hr{
+    border: 0.5px solid rgb(78, 78, 78);
+    margin-top: 23px;
+    margin-bottom: 38px;
+}
+.listofservices p{
+    display: inline;
+    margin-left: 20px;
+}
+.listofservices img{
+    display: inline;
+    width: 40px;
+    margin-bottom:-18px ;
+}
+.rightarrow1{
+    float: right;
+    padding: 3px;
+    margin: 10px 0 0px 16px;
+}
+.domains{
+    /* background-color: #fdab4f; */
+    height: 98vh;
+    padding: 6% 0%;
+}
+.domains h1{
+    font-size: 26px;
+    text-align: center;
+    font-family: "sailec-bold";
+}
+.domainsweworked{
+    padding: 2% 27% 2%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.domainsweworked div{
+    text-transform: capitalize;
+    padding-top:20px;
+    padding-bottom: 50px;
+    font-family: "sailec-bold";
+    border: 0.5px solid rgba(229,231,235,0.5); 
+
+}
+
+#domain1,#domain2,#domain3,#domain4{
+    border-top:none; 
+}
+#domain1,#domain5,#domain9,#domain13{
+    border-left: none; 
+}
+#domain4,#domain8,#domain12,#domain16{
+    border-right:none; 
+}
+#domain13,#domain14,#domain15,#domain16{
+    border-bottom:none; 
+}
+.domains button{
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: "sailec-bold";
+    color: #fff;
+    background-color: black;
+    padding: 10px 75px;
+    border: none;
+    margin: 50px 42% 80px;
+}
+
+
+
+
+
+.Featuredprojects{
+    padding: 3% 20% 2% 25%;
+    background-color: #f9f9f9;
+}
+.Featuredprojects h1{
+    text-align: center;
+    padding-right: 10%;
+    font-family: "sailec-bold";
+    font-size: 27px;
+    letter-spacing: 0.8px;
+}
+
+.frankproject
+{
+    background-color: rgb(28, 23, 148);
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+    padding-left: 22%;
+    padding-top: 6%;
+    height: 610px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.frankProjectContent{
+    padding-top: 60px;
+}
+.prohead{
+    color: rgba(255, 255, 255,0.4);
+    position: absolute;
+    font-size: 16px;
+    top: 75px;
+    right: 150px;
+    font-family: "sailec-bold";
+}
+.frankproject p{
+    font-size: 24px;
+    font-family: "sailec-bold";
+}
+.frankproject h2{
+    font-size: 14px;
+    font-family: "sailec-medium";
+    margin-bottom:35px;
+}
+.frankproject .projectimg{
+    position: absolute;
+    top: 25px;
+    left: -120px;
+    float: left;
+}
+
+.frankproject  ul div{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 6px;
+}
+.frankProjectHead{
+    margin-bottom: 35px;
+}
+.frankProjectHead img{
+    width: 550px;
+}
+
+.skymdproject{
+    background-color: rgb(23, 191, 236);
+    color: #fff;
+    position: relative;
+    left: -100px;
+    border-radius: 10px;
+    padding-left:8%;
+    padding-top: 6%;
+    height: 610px;
+    margin-bottom: 80px;
+}
+.skymdProjectContent{
+    padding-top: 50px;
+}
+.skymdproject .prohead{
+    left: 330px;
+    top: 70px;
+    line-height: 1.2;
+    width: 30%;
+}
+.skymdproject p{
+    font-size: 25px;
+    width: 70%;
+    font-family: "sailec-bold";
+}
+.skymdDetail{
+    margin-top: 25px;
+}
+.skymdproject h2{
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-family: "sailec-medium";
+}
+.skymdproject ul{
+    width: 75%;
+}
+.skymdproject .projectimg{
+    position: absolute;
+    top: 40px;
+    right: -120px;
+    width: 270px;
+}
+/* .skymdproject li{
+    display: flex;
+} */
+.skymdproject ul div{
+    display: flex;
+    margin-bottom: 6px;
+    margin-left: 20px;
+
+}
+.allprojects{
+    background-color: rgba(253, 171, 79, 0.15);
+    height: 140px;
+    padding-top: 30px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: -100px;
+    justify-content: space-around;
+}
+.allprojects p{
+    font-family: "sailec-bold";
+    font-size: 26px;
+    margin-left: -70px;
+    margin-top: 25px;
+}
+
+.skymdproject img{
+    width: 220px;
+}
+
+.Featuredprojects ul{
+    list-style: none;
+    padding-left: none;
+    line-height: 1.5;
+    margin-left: -40px;
+    font-family: "sailec-medium";
+    font-size: 13px;
+}
+.bullet1{
+    display: inline;
+    font-size: 24px;
+    /* color: white; */
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.allprojects button{
+    margin-top: 15px;
+    margin-right: -90px;
+    font-size: 18px;
+    font-family: "sailec-bold";
+    color: #fff;
+    background-color: black;
+    padding: 10px 40px;
+    height: 50px;
+    border: none;
+}

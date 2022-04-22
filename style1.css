@@ -1,0 +1,399 @@
+@font-face {
+    font-family:'sailec-thin';
+    src: url('fonts/Thin.ttf');
+}
+@font-face{
+    font-family:'sailec-bold';
+    src: url('fonts/Bold.ttf');
+}
+@font-face{
+    font-family:'sailec-medium';
+    src: url('fonts/Medium.ttf');
+}
+@font-face{
+   font-family:'sailec-regular';
+    src: url('fonts/Light.ttf');
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.expertise{
+    background-color: #fff;
+    height:135vh;
+    text-align: center;
+    padding: 3%;
+}
+.ourtech{
+    font-family: 'sailec-bold';
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(39, 39, 39);
+}
+.ourtechexpertise{
+    margin-left:200px;
+}
+.ourtechworked{
+
+    padding: 2% ;    
+    display: grid;
+    margin-left: 400px;
+    grid-template-columns: auto auto auto ;
+    
+    }
+.ourtechworked div{
+    padding-top:30px;
+    font-family: "sailec-bold";
+    padding-bottom: 10px;
+    border: 0.5px solid rgba(229,231,235,0.5);
+    }
+    .ourtechworked img{
+        width:100px;
+        cursor: pointer;
+    }
+    .ourtechworked img:hover{
+        transform: scale(1.1);
+    }
+  
+   .ourtechexpertise{
+       margin-right: 600px;
+       padding: 1%;
+   } 
+    #expert1,#expert4 img{
+ margin-top: 30px;
+    }
+    
+    
+    #expert1,#expert2,#expert3{
+    
+    border-top:none;
+    
+    }
+   
+    #expert1,#expert4,#expert7{
+    
+    border-left: none;
+    flex-wrap: wrap;
+    
+    }
+    
+    #expert3,#expert6,#expert9{
+    
+    border-right:none;
+    
+    }
+    
+    #expert7,#expert8,#expert9{
+    
+    border-bottom:none;
+    
+    }
+    #expert9{
+        font-family: 'sailec-bold';
+        color:#272727;
+        font-size:32px;
+        opacity: 0.2;
+        text-align: center;
+        letter-spacing: normal;
+    }
+   
+   
+    .ourtechexpertise button:hover{
+        background-color: rgb(253, 171, 79);
+        outline: none;
+        border:none;
+       }
+       .ourtechexpertise button{
+           width:250px;
+           margin-top: 50px;
+           margin-left: 400px;
+           height:50px;
+           background-color: black;
+           color:white;
+           border-color: black;
+           font-family: 'sailec-bold';
+           font-size: 16px;
+           padding: 2% 1% 0 2;
+       }
+  .ourteam{
+      display: flex;
+      margin-top: 150px;
+    }  
+  .profiles1{
+      margin-left:17%;
+  }  
+  .profiles2{
+    margin-right:17%;
+} 
+  .ourteam p{
+    width: 85%;
+    margin: 75px 70px 0px;
+   font-family:'sailec-regular';
+   font-size: 14px;
+   color: rgb(39, 39, 39);
+   font-weight: bolder;
+    line-height: 1.8;
+
+}
+.aboutourteam h2{
+  font-family: 'sailec-bold';
+  font-size: 32px;
+  color:#272727;
+  margin-top: 20px;
+}  
+.expertise1{
+    margin-right: 100px;
+}
+.expertise1 button:hover{
+    background-color: rgb(253, 171, 79);
+    outline: none;
+    border:none;
+   }
+   .expertise1 button{
+       width:250px;
+       margin-top: 50px;
+       margin-left: 70px;
+       height:50px;
+       background-color: black;
+       color:white;
+       border-color: black;
+       font-family: 'sailec-bold';
+       font-size: 16px;
+       padding: 2% 1% 0 2;
+   }
+.Queries{
+    background-color: rgb(253, 171, 79);
+    height:90vh;
+    padding: 5% 15% 3% 15%;
+
+}
+.queries-inner{
+    background-color: white;
+    height: 70vh;
+    width:70vw;
+    padding: 6% 3% 3% 5%;
+    display: flex;
+
+}
+.contact h2{
+  font-family: 'sailec-bold';
+  font-size: 30px;
+  word-spacing:6px;
+}
+.contact p{
+    font-family: 'sailec-medium';
+    font-size: 16px;
+    width:480px;
+    font-weight: normal;
+    margin-top: 30px;
+
+}
+#Mobile{
+    margin-left:40px;
+    margin-top:-30px;
+}
+#Mail{
+    margin-left:40px;
+    margin-top:-30px;
+}
+.profile1{
+ background-color: rgb(249, 249, 249);
+ margin-top: 20px;
+ height:12vh;
+ width:25vw;
+ display: flex;
+
+}
+.profile1 svg{
+    display: block;
+    margin-bottom: 5px;
+}
+.profile1 img{
+    height:50px;
+    width:50px;
+    margin:40% 40%;
+    border-radius: 10px;
+   }
+  .details1{
+      display: block;
+      margin: 10px 0 0 40px;
+      line-height:2;
+  } 
+  
+  .profile2{
+    background-color: rgb(249, 249, 249);
+    margin-top: 20px;
+    height:12vh;
+    width:25vw;
+    display: flex;
+
+   }
+ .profile2 svg{
+display: block;
+margin-bottom: 5px;
+
+}  
+   .profile2 img{
+    height:50px;
+    width:50px;
+    margin:40% 40%;
+    border-radius: 10px;
+   }
+   .details2{
+    display: block;
+    margin: 10px 0 0 40px;
+    line-height:2;
+} 
+.location{
+    background-color: rgb(249, 249, 249);
+    margin-top: 20px;
+    height:8vh;
+    width:25vw;
+    display: flex;
+}
+.location svg{
+  margin: 4% 4%;
+}
+.location p{
+    font-family: 'sailec-medium';
+    font-size: 14px;
+    margin-top: 10px;
+}
+.enquiry input:focus{
+    outline: none;
+    border-bottom:2px solid rgba(59,130,246,0.5);
+}
+.enquiry input{
+    display: block;
+    margin-left:110px ;
+    border:none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+    margin-top:25px;
+    width:550px;
+    font-family: 'sailec-thin';
+    font-size:19px;
+    
+}
+.enquiry textarea:focus{
+    outline:2px solid rgba(59,130,246,0.5);
+    border:none;
+    
+}
+.enquiry textarea:hover{
+    border:2px solid black;
+    
+}
+.enquiry textarea{
+    resize: none;
+    margin-left: 110px;
+    height:150px;
+    width:550px;
+    padding: 2% 1%;
+    font-family: 'sailec-medium';
+    font-size: 18px;
+    
+}
+
+.enquiry button:hover{
+ background-color: rgb(253, 171, 79);
+ outline: none;
+ border:none;
+}
+.enquiry button{
+    width:550px;
+    margin-top: 50px;
+    margin-left: 110px;
+    height:50px;
+    background-color: black;
+    color:white;
+    border-color: black;
+    font-family: 'sailec-bold';
+    font-size: 16px;
+    padding: 2% 1% 0 2;
+}
+.phonenumber{
+    display: flex;
+}
+.phonenumber option{
+    padding: 10px;
+}
+.phonenumber select:focus{
+    outline: none;
+    border-bottom:2px solid rgba(59,130,246,0.5);
+
+}
+.phonenumber select{
+    margin-left:110px;
+    margin-top: 12px;
+    height:40px;
+    width:50px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+.phonenumber #contact{
+    width:460px;
+    margin-left: 40px;
+}
+.footer{
+    background-color: black;
+    height:35vh;
+}
+.links {
+    text-align: center;
+    padding: 3.5% 15% 0%;
+}
+.links li a{
+    font-family: 'sailec-medium';
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    margin-right: 50px;
+}
+#followuson{
+    color:grey;
+    font-family: 'sailec-bold';
+    margin-top:40px;
+    font-size: 15px;
+}
+
+#linkedin{
+    margin-bottom:5px; ;
+}
+.links img:hover{
+    opacity: 0.5;
+}
+footer hr{
+    margin-top: 30px;
+    background-color: grey;
+    height:5px;
+    border:1px solid
+}
+
+.copyright{
+    color:white;
+    margin-top: 30px;
+    font-family: 'sailec-medium';
+    font-size: 12px;
+}
+.rights{
+    color:white;
+    margin-top: 0px;
+    font-family: 'sailec-medium';
+    font-size: 12px;
+}
+
+
+
+/* button hover */
+/* button:hover{
+    background-color: rgb(253, 171, 79);
+    outline: none;
+    border:none;
+} */
+/* button hover */

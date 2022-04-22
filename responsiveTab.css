@@ -1,0 +1,588 @@
+@media only screen and (max-width:800px) {
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ body{
+    overflow-x: hidden;
+}
+
+
+    .Featuredprojects{
+        background-color: #fff;
+        padding: 0;
+        height: 1830px;
+        display: none;
+    }
+    .Featuredprojects h1{
+        font-size: 23px;
+        margin: 65px 0 -40px 65px;
+    }
+.frankDetail{
+    margin: -10px 0 0;
+}
+    .frankproject{
+        width: 100vw;
+        height: 640px;
+        left: -10px;
+        padding: 30px 0 0;
+        text-align: center;
+    }
+    .skymdproject{
+        width: 100vw;
+        height: 680px;
+        left: -10px;
+        padding: 30px 0 0;
+        text-align: center;
+    }
+    .skymdproject p{
+        font-size: 25px;
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .prohead{
+        display: none;
+    }
+    .frankproject .projectimg{
+        top: 195px;
+        left: 36vw;
+        width: 204px;
+    }
+    .skymdproject .projectimg{
+        top: 225px;
+        left: 36vw;
+        width: 204px;
+    }
+    .frankProjectHead img{
+        width: 530px;
+    }
+    .frankProjectContent{
+        width: 100vw;
+        height: 270px;
+        padding: 30px;
+        position: relative;
+        top: 340px;
+        color: #000;
+        background-color: #f9f9f9;
+    }
+    .skymdProjectContent{
+        width: 100vw;
+        height: 300px;
+        padding: 30px;
+        position: relative;
+        top: 310px;
+        color: #000;
+        background-color: #f9f9f9;
+    }
+    .frankproject h2{
+        font-size: 12px;
+        font-family: "sailec-regular";
+    }
+    .frankproject ul{
+        padding-left: 195px;
+        font-size: 11px;
+    }
+    .bullet1{
+        color: #fdab4f;
+    }
+
+
+    .navbar{
+        padding: 0 1% 0 2%;
+        position: sticky;
+        width: 100%;
+        box-shadow: 0 12px 8px -6px rgb(240, 240, 240);
+    }
+
+    .nav-links{
+        display: none;
+
+    }
+    .mediaicon{
+        display: block;
+        width: 32px;
+        height: 30px;
+    }
+
+
+    .brand img{
+        width: 60px;
+        margin-top: 10px;
+    }
+    .homepage{
+        height:360px;
+        background-size:320%;
+        width: 100%;
+        padding-top: 65px;
+   }
+    .homepage h1{
+        font-size: 25px;
+        line-height: 1.5;
+    } 
+    .homepage hr{
+        width: 480px;
+        margin-left: 150px;
+   
+    }
+    .homepage button{
+        margin-top:55px;
+        font-size: 17px;
+    } 
+
+
+ .casestudies{
+    height: 740px;
+    padding: 50px 50px 30px ;
+}
+.casestudies-heading{
+    width: 70%;
+}
+.casestudies-heading h2{
+    font-size: 17px;
+}
+.casestudies-heading h1{
+    font-size: 22px;
+}
+.casestudies-content{
+    top: 310px;
+    width: 43%;
+    font-size: 14px;
+}
+.casestudies-content p{
+    margin-bottom: 30px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+  .casestudies-content ul{
+      line-height: 1.2;
+
+  }
+  .casestudies-content li{
+      margin-top:10px;
+      margin-bottom: 16px;
+      float: left;
+      width: 90%;
+  } 
+.bullet{
+    margin-top: 12px;
+}
+  .casestudies-img{
+    bottom: 0;
+
+    right: 40px;
+    height: 540px;
+    width: 290px;
+}
+.casestudies-image{
+    width: 290px;
+    height: 600px;
+    bottom: 60px;
+    right: 40px;
+}
+
+
+
+.services{
+    height: 48vh;
+    text-align: center;
+}
+.service-content{
+    background-color: #000;
+    width: 500px;
+    margin-left: 20%;
+    height: 400px;
+}
+.services h1{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 22px;
+    position: static;
+}
+
+.listofservices{
+    float: none;
+    text-align: left;
+    margin-right:46%;
+    margin-left: 4%;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.listofservices hr{
+    margin-top: 0px;
+    margin-bottom:30px;
+    visibility: hidden;
+}
+.listofservices p{
+    display: inline;
+    margin-left:10px;
+}
+.listofservices img{
+    display: inline;
+    width: 23px;
+    margin-bottom:-8px ;
+}
+.rightarrow1{
+    float: right;
+    padding:3px;
+    margin: 0px 0 16px 16px;
+}
+.domains{
+    height: 1000px;
+}
+.domainsweworked{
+    padding: 6% 21% 2%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.domains h1{
+    font-size: 24px;
+}
+/* #domain1,#domain2,#domain3,#domain4{
+    border-top:none; 
+} */
+
+#domain5{
+    border-left: 0.5px solid rgba(229,231,235,0.5); 
+}
+#domain8,#domain16{
+    border-right:0.5px solid rgba(229,231,235,0.5); 
+}
+#domain14,#domain15{
+    border-bottom:0.5px solid rgba(229,231,235,0.5); 
+}
+  #domain4,#domain7,#domain10,#domain16{
+    border-left:none; 
+}  
+#domain3,#domain6,#domain9,#domain15{
+    border-right:none; 
+}  
+.domainsweworked div{
+    padding-top:10px;
+    padding-bottom: 35px;
+}
+.domains button{
+    padding: 12px 55px;
+    border: none;
+    width: 240px;
+    margin: 40px 34% -100px;
+}
+
+
+
+
+
+
+.expertise{
+    background-color: #fff;
+    height:130vh;
+    text-align: center;
+    padding: 3%;
+}
+.ourtech{
+    font-family: 'sailec-bold';
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(39, 39, 39);
+}
+.ourtech p{
+    margin-left: 50px;
+}
+.ourtechexpertise{
+    margin-left:-80px;
+}
+.ourtechworked{
+
+    padding: 2% ;    
+    display: grid;
+    margin-left: 350px;
+    grid-template-columns: auto auto  ;
+    
+    }
+.ourtechworked div{
+    padding-top:30px;
+    font-family: "sailec-bold";
+    padding-bottom: 10px;
+    border: 0.5px solid rgba(229,231,235,0.5);
+    }
+    .ourtechworked img{
+        width:100px;
+        cursor: pointer;
+    }
+    .ourtechworked img:hover{
+        transform: scale(1.1);
+    }
+  
+   .ourtechexpertise{
+       margin-right: 600px;
+       padding: 1%;
+   } 
+    #expert1,#expert4 img{
+ margin-top: 30px;
+    }
+    
+    
+    #expert1,#expert2{
+    
+    border-top:none;
+    
+    }
+   
+    #expert1,#expert5,#expert3,#expert7{
+    
+    border-left: none;
+    
+    }
+    
+    #expert2,#expert6,#expert8,#expert4{
+    
+    border-right:none;
+    
+    }
+    
+    #expert8,#expert9{
+    
+    border-bottom:none;
+    
+    }
+    #expert3{
+        border-right: 1px solid rgba(229,231,235,0.5);
+    }
+  
+    #expert9{
+        display: none;
+    }
+   
+   
+    .ourtechexpertise button:hover{
+        background-color: rgb(253, 171, 79);
+        outline: none;
+        border:none;
+       }
+       .ourtechexpertise button{
+           width:250px;
+           margin-top: 50px;
+           margin-left:  330px;
+           height:50px;
+           background-color: black;
+           color:white;
+           border-color: black;
+           font-family: 'sailec-bold';
+           font-size: 16px;
+           padding: 2% 1% 0 2;
+       }
+  .ourteam{
+      display: none;
+      margin-top: 50px;
+
+    }  
+  .profiles1{
+      margin-left:1%;
+  }      
+  .ourteam p{
+      display: none;
+    /* width: 85%;
+    margin: 75px 70px 0px;
+   font-family:'sailec-regular';
+   font-size: 14px;
+   color: rgb(39, 39, 39);
+   font-weight: bolder;
+    line-height: 1.8; */
+
+}
+.aboutourteam h2{
+  font-family: 'sailec-bold';
+  font-size: 32px;
+  width:400px;
+  color:#272727;
+  margin-top: 0px;
+  margin-left: -50px;
+}  
+ 
+.expertise1{
+    margin-right: 100px;
+}
+.expertise1 button:hover{
+    background-color: rgb(253, 171, 79);
+    outline: none;
+    border:none;
+   }
+   .expertise1 button{
+       width:250px;
+       margin-top: 50px;
+       margin-left: 250px;
+       height:50px;
+       background-color: black;
+       color:white;
+       border-color: black;
+       font-family: 'sailec-bold';
+       font-size: 16px;
+       padding: 2% 1% 0 2;
+       display: block;
+   }
+
+   .Queries{
+        background-color: white;
+        padding: 0;
+        height: 130vh;
+    }
+    .queries-inner{
+        display:block;
+        width:102vw;
+
+    }
+    .contact{
+        background-color:  rgb(253, 171, 79);
+        width:98vw;
+        margin-left:-40px;
+        padding: 3% 35%;
+    }
+    .contact h2{
+        width:500px;
+        color:white;
+        margin-left: -50px;
+    }
+    .contact br{
+        display: none;
+    }
+    .contact p{
+        width:600px;
+        color:white;
+        font-size: 12px;
+        margin-left: -100px;
+
+    }
+    .profile1{
+        background-color: rgb(249, 249, 249);
+        height:15vh;
+        width:40vw;
+       
+       }
+       #Mobile{
+           color:black;
+       }
+       #Mail{
+        color:black;
+    }
+    .profile1 svg{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .profile1 img{
+        height:50px;
+        width:50px;
+        margin:40% 40%;
+        border-radius: 10px;
+       }
+      .details1{
+          display: block;
+          margin: 20px 0 0 40px;
+          line-height:2;
+      } 
+       
+       .profile2{
+        background-color: rgb(249, 249, 249);
+        height:15vh;
+        width:40vw;
+       
+       }
+       .profile2 svg{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .profile2 img{
+        height:50px;
+        width:50px;
+        margin:40% 40%;
+        border-radius: 10px;
+       }
+      .details2{
+          display: block;
+          margin: 20px 0 0 40px;
+          line-height:2;
+      } 
+     
+         
+    .location{
+        display: none;
+    }
+    .enquiry{
+        background-color: white;
+        margin-top: 50px;
+        
+    }
+   
+    .enquiry input{
+        width:730px;
+        margin-left:-20px ;
+    }
+    .enquiry textarea{
+        margin-left:-30px ;
+        width:97vw;
+
+    }
+    .enquiry button{
+        width:250px;
+        margin-left:230px;
+        margin-top:90px;
+
+    }
+    .phonenumber select{
+        margin-left:-20px;
+    }
+    .phonenumber #contact{
+        width:645px;
+    }
+ .footer{
+    background-color: black;
+    height:90vh;
+    width:100vw;
+}
+.links {
+    text-align: center;
+    padding: 3.5% 15% 0%;
+}
+.links li a{
+    font-family: 'sailec-medium';
+    text-decoration: none;
+    display: block;
+    color:white;
+    font-size: 20px;
+    margin-top:40px;
+    margin-left:50px;;
+}
+#followuson{
+    color:grey;
+    font-family: 'sailec-bold';
+    margin-top:40px;
+    font-size: 15px;
+}
+
+#linkedin{
+    margin-bottom:5px; ;
+    margin-right: 10px;
+}
+.links img:hover{
+    opacity: 0.5;
+}
+footer hr{
+    display: none;
+}
+
+.copyright{
+    color:white;
+    margin-top: 30px;
+    font-family: 'sailec-medium';
+    font-size: 12px;
+}
+.rights{
+    color:white;
+    margin-top: 0px;
+    font-family: 'sailec-medium';
+    font-size: 12px;
+}
+}
