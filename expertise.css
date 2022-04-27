@@ -1,0 +1,695 @@
+@font-face {
+    font-family:'sailec-thin';
+    src: url('fonts/Thin.ttf');
+}
+@font-face{
+    font-family:'sailec-bold';
+    src: url('fonts/Bold.ttf');
+}
+@font-face{
+    font-family:'sailec-medium';
+    src: url('fonts/Medium.ttf');
+}
+@font-face{
+   font-family:'sailec-regular';
+    src: url('fonts/Light.ttf');
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.expertise{
+    background-color: #fff;
+    height:135vh;
+    text-align: center;
+    padding: 3% 2%;
+}
+.ourtech{
+    font-family: 'sailec-bold';
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(39, 39, 39);
+}
+/* .ourtechexpertise{
+} */
+.ourtechworked{
+    padding: 2% ;    
+    display: grid;
+    text-align: center;
+    margin: 0% 30%;
+    grid-template-columns: auto auto auto ;
+    
+    }
+.ourtechworked div{
+    padding-top:10px;
+    font-family: "sailec-bold";
+    padding-bottom: 20px;
+    border: 0.5px solid rgba(229,231,235,0.5);
+    }
+    .ourtechworked img{
+        width:100px;
+        cursor: pointer;
+    }
+    .ourtechworked img:hover{
+        transform: scale(1.1);
+    }
+  
+   .ourtechexpertise{
+       /* margin-right: 600px; */
+       padding: 1%;
+   } 
+    #expert1,#expert4 img{
+ margin-top: 30px;
+    }
+    
+    
+    #expert1,#expert2,#expert3{
+    border-top:none;
+    
+    }
+   
+    #expert1,#expert4,#expert7{
+    
+    border-left: none;
+    flex-wrap: wrap;
+    
+    }
+    
+    #expert3,#expert6,#expert9{
+    
+    border-right:none;
+    
+    }
+    
+    #expert7,#expert8,#expert9{
+    
+    border-bottom:none;
+    padding-top: 40px;
+    }
+    #expert9{
+        font-family: 'sailec-bold';
+        color:#272727;
+        font-size:32px;
+        opacity: 0.2;
+        text-align: center;
+        letter-spacing: normal;
+    }
+   
+   
+    .ourtechexpertise button:hover{
+        background-color: rgb(253, 171, 79);
+        outline: none;
+        border:none;
+       }
+       .ourtechexpertise button{
+           width:250px;
+           margin-top: 50px;
+           margin-left: 0px;
+           height:50px;
+           background-color: black;
+           color:white;
+           border-color: black;
+           font-family: 'sailec-bold';
+           font-size: 16px;
+           padding: 2% 1% 0 2;
+           cursor: pointer;
+       }
+  .ourteam{
+      display: flex;
+      margin-top: 150px;
+    }  
+  .profiles1{
+      margin-left:17%;
+  }  
+  .profiles2{
+    margin-right:17%;
+} 
+.profiles5,.profiles6{
+    display: none;
+}
+  .ourteam h4{
+    width: 93%;
+    margin: 40px 80px 0px 30px;
+   font-family:'sailec-light';
+   font-size: 14px;
+   color: rgb(39, 39, 39);
+    line-height: 1.8;
+    text-align: center;
+
+}
+.aboutourteam h2{
+  font-family: 'sailec-bold';
+  font-size: 32px;
+  color:#272727;
+  margin-top: 20px;
+}  
+.profiles3,.profiles4{
+    display: none;
+}
+.expertise1{
+    margin-right: 100px;
+    margin-top: -50px;
+}
+.expertise1 button:hover{
+    background-color: rgb(253, 171, 79);
+    outline: none;
+    border:none;
+   }
+   .expertise1 button{
+       width:250px;
+       margin-top:0px;
+       margin-left: 70px;
+       height:50px;
+       background-color: black;
+       color:white;
+       border-color: black;
+       font-family: 'sailec-bold';
+       font-size: 16px;
+       padding: 2% 1% 0 2;
+       cursor: pointer;
+
+   }
+   @media only screen and (min-width:900px) and (max-width:1025px){
+    *{
+        margin:0;
+        padding: 0;
+    }
+    body,html{
+        overflow-x: hidden;
+    }
+        
+    .expertise{
+        background-color: #fff;
+        height:160vh;
+        text-align: center;
+        padding: 3% 2%;
+    }
+    .ourtech{
+        font-family: 'sailec-bold';
+        font-size: 30px;
+        font-weight: bolder;
+        color:rgb(39, 39, 39);
+    }
+   
+    .ourtechworked{
+    
+        padding: 2% ;    
+    margin: 0% 18%;
+        display: grid;
+        /* margin-left: 400px; */
+        grid-template-columns: auto auto auto ;
+        
+        }
+    .ourtechworked div{
+        padding-top:30px;
+        font-family: "sailec-bold";
+        padding-bottom: 10px;
+        border: 0.5px solid rgba(229,231,235,0.5);
+        }
+        .ourtechworked img{
+            width:100px;
+            cursor: pointer;
+        }
+        .ourtechworked img:hover{
+            transform: scale(1.1);
+        }
+      
+       .ourtechexpertise{
+           /* margin-right: 600px; */
+           padding: 1%;
+       } 
+        #expert1,#expert4 img{
+     margin-top: 30px;
+        }
+        
+        
+        #expert1,#expert2,#expert3{
+        
+        border-top:none;
+        
+        }
+       
+        #expert1,#expert4,#expert7{
+        
+        border-left: none;
+        flex-wrap: wrap;
+        
+        }
+        
+        #expert3,#expert6,#expert9{
+        
+        border-right:none;
+        
+        }
+        
+        #expert7,#expert8,#expert9{
+        
+        border-bottom:none;
+        
+        }
+        #expert9{
+            font-family: 'sailec-bold';
+            color:#272727;
+            font-size:32px;
+            opacity: 0.2;
+            text-align: center;
+            letter-spacing: normal;
+        }
+       
+       
+        .ourtechexpertise button:hover{
+            background-color: rgb(253, 171, 79);
+            outline: none;
+            border:none;
+           }
+           .ourtechexpertise button{
+               width:250px;
+               margin-top: 60px;
+               margin-left: 0px;
+               height:50px;
+               background-color: black;
+               color:white;
+               border-color: black;
+               font-family: 'sailec-bold';
+               font-size: 16px;
+               padding: 2% 1% 0 2;
+           }
+      .ourteam{
+          display: flex;
+          margin-top: 50px;
+        }  
+  .profiles1,.profiles2,.profiles3,.profiles4{
+  display: none;
+  }
+  .profiles5,.profiles6{
+    display: block;
+    }
+    .profiles5 img{
+        margin-left:-1200px;
+        margin-top: 30px;
+    }
+    .profiles6 img{
+        margin-left:-85px;
+        margin-top: 30px;
+
+    }
+      
+      .ourteam h4{
+        width:400px;
+       font-family:'sailec-regular';
+       font-size: 14px;
+       color: rgb(39, 39, 39);
+       font-weight: bolder;
+        line-height: 1.8;
+        text-align: center;
+        margin-left: 300px;
+    
+    }
+    #meettheTeam{
+        margin-top:80px;
+    }
+    #aboutus{
+        text-align: center;
+        width: 680px;
+        margin-left: -200px;
+    }
+    .aboutourteam h2{
+      font-family: 'sailec-bold';
+      font-size: 32px;
+      width:380px;
+      color:#272727;
+      margin-top: 20px;
+      margin-left: 300px;
+    }  
+    .expertise1{
+        margin-right: 100px;
+    }
+    .expertise1 button:hover{
+        background-color: rgb(253, 171, 79);
+        outline: none;
+        border:none;
+       }
+       .expertise1 button{
+           width:250px;
+           margin-top: 30px;
+           margin-left: 360px;
+           height:50px;
+           background-color: black;
+           color:white;
+           border-color: black;
+           font-family: 'sailec-bold';
+           font-size: 16px;
+           padding: 2% 1% 0 2;
+           display: block;
+       }
+    }
+    @media only screen and (max-width:800px) {
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+           overflow-x: hidden;
+       }
+
+       .expertise{
+        background-color: #fff;
+        height:150vh;
+        text-align: center;
+        padding: 3%;
+    }
+    .ourtech{
+        font-family: 'sailec-bold';
+        font-size: 30px;
+        font-weight: bolder;
+        color:rgb(39, 39, 39);
+        padding-top: 3%;
+    }
+    .ourtech p{
+        margin-left: 50px;
+    }
+    
+    .ourtechworked{
+    
+        /* padding: 2% ;     */
+        margin: 0% 18%;
+    
+        display: grid;
+        /* margin-left: 350px; */
+        grid-template-columns: auto auto  ;
+        
+        }
+    .ourtechworked div{
+        padding-top:30px;
+        font-family: "sailec-bold";
+        padding-bottom: 10px;
+        border: 0.5px solid rgba(229,231,235,0.5);
+        }
+        .ourtechworked img{
+            width:100px;
+            cursor: pointer;
+        }
+        .ourtechworked img:hover{
+            transform: scale(1.1);
+        }
+      
+       .ourtechexpertise{
+           padding: 1%;
+       } 
+        #expert1,#expert4 img{
+     margin-top: 30px;
+        }
+        
+        
+        #expert1,#expert2{
+        
+        border-top:none;
+        
+        }
+       
+        #expert1,#expert5,#expert3,#expert7{
+        
+        border-left: none;
+        
+        }
+        
+        #expert2,#expert6,#expert8,#expert4{
+        
+        border-right:none;
+        
+        }
+        
+        #expert8,#expert9{
+        
+        border-bottom:none;
+        
+        }
+        #expert3{
+            border-right: 1px solid rgba(229,231,235,0.5);
+        }
+      
+        #expert9{
+            display: none;
+        }
+       
+       
+        .ourtechexpertise button:hover{
+            background-color: rgb(253, 171, 79);
+            outline: none;
+            border:none;
+           }
+           .ourtechexpertise button{
+               width:250px;
+               margin-top: 50px;
+               height:50px;
+               background-color: black;
+               color:white;
+               border-color: black;
+               font-family: 'sailec-bold';
+               font-size: 16px;
+               padding: 2% 1% 0 2;
+           }
+           .profiles1 img{
+            display: none;
+    
+        } 
+        .profiles2 img{
+            display: none;
+        } 
+        .profiles3{
+            display: block;
+        }
+        .profiles3 img{
+            margin-left:-1150px;
+            margin-top:100px;
+            
+    
+        }
+        .ourteam h4{
+          width:680px;
+         font-family:'sailec-regular';
+         font-size: 12px;
+         color: rgb(39, 39, 39);
+         font-weight: bolder;
+          line-height: 1.8;
+          display: block;
+          margin-top: 300px;
+          text-align: center;
+    
+      
+      }
+      .ourteam{
+        display: flex;
+        margin-top: 150px;
+      }  
+      .profiles1{
+          margin-left:1%;
+      }      
+    #meettheTeam{
+        margin-top: 100px;
+    }
+    .aboutourteam h2{
+      font-family: 'sailec-bold';
+      font-size: 32px;
+      width:400px;
+      color:#272727;
+      margin-top: 0px;
+      margin-left: 170px;
+    }  
+     
+    .expertise1{
+        margin-right: 100px;
+    }
+    .expertise1 button:hover{
+        background-color: rgb(253, 171, 79);
+        outline: none;
+        border:none;
+       }
+       .expertise1 button{
+           width:250px;
+           margin-top: 30px;
+           margin-left: 250px;
+           height:50px;
+           background-color: black;
+           color:white;
+           border-color: black;
+           font-family: 'sailec-bold';
+           font-size: 16px;
+           padding: 2% 1% 0 2;
+           display: block;
+       }
+}
+@media only screen and (max-width:600px){
+    *{
+        margin:0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .expertise{
+        background-color: #fff;
+        height:190vh;
+        text-align: center;
+        padding: 0%;
+    }
+    .ourtech{
+        font-family: 'sailec-bold';
+        font-size: 30px;
+        font-weight: bolder;
+        color:rgb(39, 39, 39);
+    }
+    .ourtech p{
+        margin-left: 30px;
+    }
+    
+    .ourtechworked{
+    
+        padding: 0% ;    
+        display: grid;
+    margin: 0% 10%;
+        grid-template-columns: auto auto  ;
+        
+        }
+    .ourtechworked div{
+        padding-top:30px;
+        font-family: "sailec-bold";
+        padding-bottom: 10px;
+        border: 0.5px solid rgba(229,231,235,0.5);
+        }
+        .ourtechworked img{
+            width:80px;
+            cursor: pointer;
+        }
+        .ourtechworked img:hover{
+            transform: scale(1.1);
+        }
+      
+       .ourtechexpertise{
+           padding: 1%;
+       } 
+        #expert1,#expert4 img{
+     margin-top: 30px;
+        }
+        
+        
+        #expert1,#expert2{
+        
+        border-top:none;
+        
+        }
+       
+        #expert1,#expert5,#expert3,#expert7{
+        
+        border-left: none;
+        
+        }
+        
+        #expert2,#expert6,#expert8,#expert4{
+        
+        border-right:none;
+        
+        }
+        
+        #expert8,#expert9{
+        
+        border-bottom:none;
+        
+        }
+        #expert3{
+            border-right: 1px solid rgba(229,231,235,0.5);
+        }
+      
+        #expert9{
+            display: none;
+        }
+       
+       
+        .ourtechexpertise button:hover{
+            background-color: rgb(253, 171, 79);
+            outline: none;
+            border:none;
+           }
+           .ourtechexpertise button{
+               width:250px;
+               margin-top: 50px;
+               height:50px;
+               background-color: black;
+               color:white;
+               border-color: black;
+               font-family: 'sailec-bold';
+               font-size: 16px;
+               padding: 2% 1% 0 2;
+           }
+      .ourteam{
+          display: flex;
+          margin-top: 50px;
+        } 
+        /* .aboutourteam h2{
+            margin-left: -600px;
+        } */
+   .profiles1,.profiles2,.profiles3{
+       display: none;
+   }
+   .profiles4{
+       display: block;
+       margin-left:-1000px;
+       margin-right:25px;
+       margin-top: 150px;
+   }
+      .ourteam h4{
+        width: 32%;
+       font-family:'sailec-regular';
+       font-size: 12px;
+       color: rgb(39, 39, 39);
+       font-weight: bolder;
+        line-height: 1.8;
+        display: block;
+        margin-top: 250px;
+        text-align: center;
+        margin-left:2%;
+
+    
+    }
+    .aboutourteam h2{
+      font-family: 'sailec-bold';
+      font-size: 24px;
+      color:#272727;
+      margin-top: 80px;
+      margin-left: -10px;
+    }  
+    #meettheTeam{
+       margin-bottom: -120px;
+       margin-top: 150px;
+    }
+    #teamOpenings{
+        margin-top: 150px;
+     }
+    .expertise1{
+        margin-right: 100px;
+    }
+    .expertise1 button:hover{
+        background-color: rgb(253, 171, 79);
+        outline: none;
+        border:none;
+       }
+       .expertise1 button{
+           width:250px;
+           margin-left: 50px;
+           height:50px;
+           background-color: black;
+           color:white;
+           border-color: black;
+           font-family: 'sailec-bold';
+           font-size: 16px;
+           padding: 2% 1% 0 2;
+           display: block;
+       }
+    
+    }

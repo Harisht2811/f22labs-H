@@ -1,0 +1,634 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "sailec-thin";
+    src: url('fonts/Thin.ttf');
+
+}
+
+@font-face {
+    font-family: "sailec-light";
+    src: url('fonts/Light.ttf');
+}
+
+@font-face {
+    font-family: "sailec-regular";
+    src: url('fonts/regular.otf');
+}
+
+@font-face {
+    font-family: "sailec-medium";
+    src: url('fonts/Medium.ttf');
+}
+
+@font-face {
+    font-family: "sailec-bold";
+    src: url('fonts/Bold.ttf');
+}
+
+
+.featured-projects {
+    padding: 3% 18% 2% 26%;
+    background-color: #f9f9f9;
+}
+
+.featured-projects h1 {
+    text-align: center;
+    padding-right: 10%;
+    font-family: "sailec-bold";
+    font-size: 27px;
+    letter-spacing: 0.8px;
+}
+
+.frank-project {
+    background-color: rgb(28, 23, 148);
+    color: #fff;
+    position: relative;
+    border-radius: 10px;
+    padding-left: 22%;
+    padding-top: 6%;
+    height: 610px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.frank-project-content {
+    padding-top: 50px;
+}
+
+.project-head {
+    color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    font-size: 16px;
+    top: 75px;
+    right: 190px;
+    font-family: "sailec-bold";
+}
+
+.frank-project p {
+    font-size: 26px;
+    font-family: "sailec-bold";
+}
+
+.frank-project h2 {
+    font-size: 14px;
+    font-family: "sailec-medium";
+    margin-bottom: 35px;
+}
+
+.frank-project .project-img {
+    position: absolute;
+    top: 25px;
+    left: -120px;
+    float: left;
+}
+
+.frank-project ul div {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 6px;
+}
+
+.frank-project-head {
+    margin-bottom: 35px;
+}
+
+.frank-project-head img {
+    width: 520px;
+}
+
+.skymd-project {
+    background-color: rgb(23, 191, 236);
+    color: #fff;
+    position: relative;
+    left: -140px;
+    border-radius: 10px;
+    padding-left: 8%;
+    padding-top: 6%;
+    height: 610px;
+    margin-bottom: 80px;
+}
+
+.skymd-project-content {
+    padding-top: 50px;
+}
+
+.skymd-project .project-head {
+    left: 330px;
+    top: 70px;
+    line-height: 1.2;
+    width: 30%;
+}
+
+.skymd-project p {
+    font-size: 26px;
+    width: 70%;
+    font-family: "sailec-bold";
+}
+
+.skymd-detail {
+    margin-top: 25px;
+}
+
+.skymd-project h2 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-family: "sailec-medium";
+}
+
+.skymd-project ul {
+    width: 75%;
+}
+
+.skymd-project .project-img {
+    position: absolute;
+    top: 40px;
+    right: -120px;
+    width: 270px;
+}
+
+/* .skymdproject li{
+    display: flex;
+} */
+.skymd-project ul div {
+    display: flex;
+    margin-bottom: 6px;
+    margin-left: 20px;
+
+}
+
+.all-projects {
+    background-color: rgba(253, 171, 79, 0.15);
+    height: 140px;
+    padding-top: 30px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: -140px;
+    justify-content: space-around;
+}
+
+.all-projects h4 {
+    font-family: "sailec-bold";
+    font-size: 26px;
+    margin-left: -70px;
+    margin-top: 25px;
+}
+
+.skymd-project img {
+    width: 220px;
+}
+
+.featured-projects ul {
+    list-style: none;
+    padding-left: none;
+    line-height: 1.5;
+    margin-left: -40px;
+    font-family: "sailec-medium";
+    font-size: 13px;
+}
+
+.bullet1 {
+    display: inline;
+    font-size: 24px;
+    /* color: white; */
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.all-projects button {
+    margin-top: 15px;
+    margin-right: -90px;
+    font-size: 18px;
+    font-family: "sailec-bold";
+    color: #fff;
+    background-color: black;
+    padding: 10px 40px;
+    height: 50px;
+    border: none;
+}
+
+button {
+    position: relative;
+}
+
+
+@media only screen and (min-width:900px) and (max-width:1025px) {
+
+    .featured-projects {
+        padding: 5% 0% 2% 10%;
+        background-color: #f9f9f9;
+    }
+
+    .frank-project {
+        right: -3px;
+    }
+
+    .frank-detail {
+        font-size: 10px;
+    }
+
+    .frank-project-head img {
+        width: 530px;
+    }
+
+    .frank-project h2 {
+        margin-bottom: 20px;
+        font-family: "sailec-regular";
+    }
+
+    .frank-project p {
+        font-size: 24px;
+        letter-spacing: -1px;
+    }
+
+    .frank-project-content h2 {
+        font-size: 14px;
+        font-family: "sailec-medium";
+    }
+
+    .project-head {
+        font-size: 13px;
+        top: 74px;
+        right: 110px;
+    }
+
+    .frank-project .project-img {
+        top: 90px;
+        left: -30px;
+        width: 204px;
+    }
+
+    .skymd-project {
+        left: -106px;
+    }
+
+    .skymd-project .project-head {
+        font-size: 14px;
+        top: 65px;
+        left: 290px;
+    }
+
+    .skymd-project p {
+        width: 78%;
+        font-size: 24px;
+        letter-spacing: -1px;
+        font-family: "sailec-bold";
+    }
+
+    .skymd-project h2 {
+        font-size: 14px;
+        font-family: "sailec-regular";
+    }
+
+    .skymd-project ul {
+        width: 83%;
+        font-size: 14px;
+    }
+
+    .skymd-project .project-img {
+        position: absolute;
+        top: 90px;
+        right: -30px;
+        width: 200px;
+    }
+
+    .skymd-project-head {
+        margin-left: -20px;
+    }
+
+    .skymd-detail {
+        margin-left: -20px;
+    }
+
+    .skymd-project-content {
+        margin-left: -20px;
+    }
+
+    .all-projects {
+        width: 80vw;
+        height: 230px;
+        font-size: 10px;
+        display: block;
+        text-align: center;
+        margin-left: 0.8vw;
+    }
+
+    .all-projects h4 {
+        margin-left: 0px;
+        font-size: 24px;
+    }
+
+    .all-projects button {
+        margin-top: 45px;
+        margin-right: 0px;
+        font-size: 16px;
+        font-family: "sailec-bold";
+        color: #fff;
+        background-color: black;
+        padding: 10px 40px;
+        height: 50px;
+        border: none;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .featured-projects {
+        background-color: #fff;
+        padding: 0;
+        height: 1830px;
+    }
+
+    .featured-projects h1 {
+        font-size: 23px;
+        margin: 65px 0 -40px 65px;
+    }
+
+    .frank-detail {
+        margin: -10px 0 0;
+    }
+
+    .frank-project {
+        width: 100vw;
+        height: 640px;
+        left: -10px;
+        padding: 30px 0 0;
+        text-align: center;
+    }
+
+    .frank-project p {
+        font-size: 24px;
+    }
+
+    .skymd-project p {
+        font-size: 24px
+    }
+
+    .skymd-project {
+        width: 100vw;
+        height: 650px;
+        left: -10px;
+        padding: 30px 0 0;
+        text-align: center;
+    }
+
+    .skymd-project p {
+        font-size: 25px;
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .project-head {
+        display: none;
+    }
+
+    .frank-project .project-img {
+        top: 195px;
+        left: 36vw;
+        width: 204px;
+    }
+
+    .skymd-project .project-img {
+        top: 225px;
+        left: 36vw;
+        width: 204px;
+    }
+
+    .frank-project-head img {
+        width: 530px;
+    }
+
+    .frank-project-content {
+        width: 100vw;
+        height: 270px;
+        padding: 30px;
+        position: relative;
+        top: 340px;
+        color: #000;
+        background-color: #f9f9f9;
+    }
+
+    .skymd-project-content {
+        width: 100vw;
+        height: 310px;
+        padding: 10px 0px 10px 100px;
+        position: relative;
+        text-align: left;
+        top: 310px;
+        color: #000;
+        background-color: #f9f9f9;
+    }
+
+    .skymd-project h2 {
+        font-size: 12px;
+        margin-left: 260px;
+        font-family: "sailec-medium";
+        margin-top: 25px;
+    }
+
+    .frank-project h2 {
+        font-size: 12px;
+        font-family: "sailec-medium";
+        font-weight: 600;
+    }
+
+    .skymd-project ul {
+        font-size: 11px;
+        margin-top: -20px;
+        margin-left: 20px;
+        width: 70vw;
+    }
+
+    .frank-project ul {
+        padding-left: 175px;
+        margin-top: -20px;
+        font-size: 11px;
+    }
+
+    .bullet1 {
+        color: #fdab4f;
+    }
+
+    .all-projects {
+        margin-top: 150px;
+        display: block;
+        height: 250px;
+        text-align: center;
+    }
+
+    .all-projects h4 {
+        margin-top: 30px;
+        margin-left: 170px;
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .all-projects button {
+        font-size: 14px;
+        margin-left: 100px;
+
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .featured-projects {
+        background-color: #fff;
+        padding: 0;
+        height: 2030px;
+    }
+
+    .featured-projects h1 {
+        font-size: 23px;
+        text-align: center;
+        margin: 0px 0 -40px 30px;
+    }
+
+    .frank-detail {
+        margin: -10px 20px 0px;
+    }
+
+    .frank-project {
+        width: 100vw;
+        height: 660px;
+        left: -10px;
+        padding: 30px 0 0;
+        text-align: center;
+    }
+
+    .frank-project-head img {
+        width: 88vw;
+    }
+
+    .skymd-project {
+        width: 100vw;
+        height: 770px;
+        left: -10px;
+        padding: 30px 0 0;
+        text-align: center;
+    }
+
+    .skymd-project p {
+        font-size: 25px;
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .project-head {
+        display: none;
+    }
+
+    .frank-project .project-img {
+        top: 250px;
+        left: 20vw;
+        width: 220px;
+    }
+
+    .skymd-project .project-img {
+        top: 300px;
+        left: 20vw;
+        width: 220px;
+    }
+
+    .frank-project-content {
+        width: 100vw;
+        height: 300px;
+        padding: 30px;
+        position: relative;
+        top: 280px;
+        color: #000;
+        background-color: #f9f9f9;
+    }
+
+    .frank-project-content h2 {
+        font-family: "sailec-bold";
+    }
+
+    .skymd-project-content {
+        width: 100vw;
+        height: 400px;
+        padding: 10px 0px 10px 0px;
+        position: relative;
+        text-align: left;
+        top: 170px;
+        color: #000;
+        background-color: #f9f9f9;
+    }
+
+    .skymd-project-content h2 {
+        font-family: "sailec-bold";
+    }
+
+    .all-projects {
+        display: block;
+        margin: -24px 0 0 0;
+        width: 100vw;
+        height: 300px;
+        text-align: center;
+    }
+
+    .skymd-project h2 {
+        font-size: 10px;
+        margin-left: 160px;
+        font-family: "sailec-regular";
+        margin-top: 25px;
+    }
+
+    .frank-project h2 {
+        font-size: 11px;
+        line-height: 2;
+        margin: 0 20px;
+        font-family: "sailec-regular";
+    }
+
+    .skymd-project ul {
+        font-size: 11px;
+        margin-top: -1%;
+        width: 93vw;
+        font-size: 12px;
+        margin-left: 2%;
+    }
+
+    .challenges2 {
+        padding-bottom: 5px;
+    }
+
+    .frank-project ul {
+        padding-left: 8%;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 11px;
+    }
+
+    .challenges1 {
+        padding-bottom: 10px;
+    }
+
+    .bullet1 {
+        color: #fdab4f;
+    }
+
+    .all-projects h4 {
+        margin: 20px 0 0 40px;
+        width: 80vw;
+        padding: 0;
+        font-size: 24px;
+    }
+
+    .all-projects button {
+        font-size: 16px;
+        margin-top: 50px;
+        margin-left: -80px;
+    }
+
+}

@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "sailec-thin";
+    src: url('fonts/Thin.ttf');
+
+}
+
+@font-face {
+    font-family: "sailec-light";
+    src: url('fonts/Light.ttf');
+}
+
+@font-face {
+    font-family: "sailec-regular";
+    src: url('fonts/regular.otf');
+}
+
+@font-face {
+    font-family: "sailec-medium";
+    src: url('fonts/Medium.ttf');
+}
+
+@font-face {
+    font-family: "sailec-bold";
+    src: url('fonts/Bold.ttf');
+}
+
+.homepage {
+    background: url("images/background.png");
+    margin-top: 75px;
+    height: 600px;
+    background-size: 85% 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.homepage h1 {
+    font-size: 35px;
+    font-family: "sailec-bold";
+    line-height: 1.5;
+}
+
+.homepage hr {
+    border-top: 1px #fdab4f dashed;
+    height: -0px;
+    border-bottom: none;
+    width: 670px;
+    margin-left: 585px;
+    margin-top: -1px;
+    margin-bottom: 5px;
+}
+
+.homepage-heading1 {
+    color: #fdab4f;
+}
+
+.homepage button {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "sailec-bold";
+    color: #fff;
+    background-color: black;
+    padding: 10px 75px;
+    border: none;
+    cursor: pointer;
+}
+
+.homepage button:hover {
+    background-color: rgb(253, 171, 79);
+    outline: none;
+    border: none;
+}
+
+.diagonal-slider {
+    width: 0px;
+    height: 48px;
+    background-color: transparent;
+    position: absolute;
+    box-shadow: 5px 15px 10px 4px transparent;
+    left: 10px;
+    top: -15px;
+    animation: 3s buttonslide infinite ease-in;
+    transform: rotate(40deg);
+    float: left;
+}
+
+
+
+@keyframes buttonslide {
+
+    0% {
+        left: 1%;
+    }
+
+    50% {
+        box-shadow: 5px 15px 10px 4px rgb(100, 100, 100);
+    }
+
+    60% {
+        box-shadow: 5px 15px 10px 3px white;
+    }
+
+    80% {
+        box-shadow: 5px 15px 10px 4px rgb(100, 100, 100);
+    }
+
+    100% {
+        left: 100%;
+    }
+
+}
+
+
+
+@media only screen and (min-width:900px) and (max-width:1025px) {
+    .homepage hr {
+        margin-left: 174px;
+        width: 680px;
+        margin-bottom: 5px;
+    }
+
+    .homepage {
+        background-size: contain;
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .homepage {
+        height: 430px;
+        margin-top: 0;
+        background-size: 320%;
+        width: 100%;
+        padding-top: 85px;
+    }
+
+    .homepage h1 {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .homepage hr {
+        width: 480px;
+        margin-left: 150px;
+
+    }
+
+    .homepage button {
+        margin-top: 55px;
+        font-size: 17px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .homepage {
+        height: 360px;
+        /* margin-left: -7px; */
+        background-size: 300%;
+        width: 100vw;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .homepage h1 {
+        font-size: 20px;
+        margin-left: 50px;
+        width: 260px;
+        line-height: 1.7;
+    }
+
+    .homepage-heading2 {
+        margin-left: -80px;
+    }
+
+    .homepage-heading1 {
+        width: 60%;
+        padding-left: 2%;
+        margin-top: 0px;
+    }
+
+    .homepage hr {
+        width: 220px;
+        margin-left: 70px;
+    }
+
+    .homepage button {
+        margin-top: 45px;
+        padding: 13px 40px;
+        /* margin-left:25% ; */
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "sailec-thin";
+    src: url('fonts/Thin.ttf');
+
+}
+
+@font-face {
+    font-family: "sailec-light";
+    src: url('fonts/Light.ttf');
+}
+
+@font-face {
+    font-family: "sailec-regular";
+    src: url('fonts/regular.otf');
+}
+
+@font-face {
+    font-family: "sailec-medium";
+    src: url('fonts/Medium.ttf');
+}
+
+@font-face {
+    font-family: "sailec-bold";
+    src: url('fonts/Bold.ttf');
+}
+
+
+.services {
+    height: 700px;
+    background-color: #000;
+    color: #fff;
+    padding: 5% 20% 4% 25%;
+}
+
+.service-content {
+    position: relative;
+    height: 505px;
+    background-color: #ffffff0d;
+}
+
+.services h1 {
+    color: #fdab4f;
+    width: 400px;
+    font-family: 'sailec-bold';
+    font-size: 44px;
+    position: absolute;
+    top: 130px;
+    left: -105px;
+}
+
+.list-of-services {
+    text-transform: capitalize;
+    font-family: 'sailec-bold';
+    float: right;
+    margin-right: 50px;
+    padding-top: 40px;
+    font-size: 22px;
+}
+
+.list-of-services hr {
+    border: 0.5px solid rgb(78, 78, 78);
+    margin-top: 23px;
+    margin-bottom: 38px;
+}
+
+.list-of-services p {
+    display: inline;
+    margin-left: 20px;
+}
+
+.list-of-services img {
+    display: inline;
+    width: 40px;
+    margin-bottom: -18px;
+}
+
+.right-arrow1 {
+    float: right;
+    padding: 3px;
+    margin: 10px 0 0px 16px;
+}
+
+
+@media only screen and (min-width:900px) and (max-width:1025px) {
+
+    .services {
+        height: 80vh;
+        padding: 5% 5% 5% 13%;
+    }
+
+    .services h1 {
+        color: #fdab4f;
+        font-size: 37px;
+        width: 430px;
+    }
+
+    .list-of-services {
+        font-size: 20px;
+    }
+
+    .list-of-services img {
+        display: inline;
+        width: 35px;
+        margin-bottom: -14px;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .services {
+        height: 48vh;
+        text-align: center;
+    }
+
+    .service-content {
+        background-color: #000;
+        width: 500px;
+        margin-left: 15%;
+        height: 400px;
+    }
+
+    .services h1 {
+        width: 300px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 22px;
+        position: static;
+    }
+
+    .list-of-services {
+        float: none;
+        text-align: left;
+        margin-right: 46%;
+        margin-left: 4%;
+        padding-top: 40px;
+        font-size: 14px;
+    }
+
+    .list-of-services hr {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        visibility: hidden;
+    }
+
+    .list-of-services p {
+        display: inline;
+        margin-left: 10px;
+    }
+
+    .list-of-services img {
+        display: inline;
+        width: 23px;
+        margin-bottom: -8px;
+    }
+
+    .right-arrow1 {
+        float: right;
+        padding: 3px;
+        margin: 0px 0 16px 16px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+    .services {
+        height: 540px;
+        padding: 80px 0px;
+        width: 100vw;
+    }
+
+    .service-content {
+        margin-left: 55px;
+        width: 260px;
+    }
+
+    .service-content h1 {
+        font-size: 23px;
+        width: 95%;
+    }
+
+    .list-of-services {
+        margin-right: 0;
+        margin-left: 4%;
+        font-size: 12px;
+    }
+
+    .list-of-services p {
+        font-size: 13px;
+        font-family: "sailec-bold";
+    }
+
+    .list-of-services img {
+        width: 28px;
+        margin-bottom: -8px;
+    }
+
+    .right-arrow1 {
+        float: right;
+        padding: 3px;
+        margin: 10px 0 16px 16px;
+    }
+
+}

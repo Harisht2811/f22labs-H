@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'sailec-thin';
+    src: url('fonts/Thin.ttf');
+}
+
+@font-face {
+    font-family: 'sailec-bold';
+    src: url('fonts/Bold.ttf');
+}
+
+@font-face {
+    font-family: 'sailec-medium';
+    src: url('fonts/Medium.ttf');
+}
+
+@font-face {
+    font-family: 'sailec-regular';
+    src: url('fonts/Light.ttf');
+}
+
+.footer {
+    background-color: black;
+    height: 35vh;
+}
+
+.links {
+    text-align: center;
+    padding: 3.5% 15% 0%;
+}
+
+.links li a {
+    font-family: 'sailec-medium';
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+#follow-us-on {
+    color: grey;
+    font-family: 'sailec-bold';
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#linkedin {
+    margin-bottom: 5px;
+}
+
+.links img:hover {
+    opacity: 0.5;
+}
+
+footer hr {
+    margin-top: 30px;
+    background-color: grey;
+    height: 5px;
+    border: 1px solid
+}
+
+.copyright {
+    color: white;
+    margin-top: 30px;
+    font-family: 'sailec-medium';
+    font-size: 12px;
+}
+
+.rights {
+    color: white;
+    margin-top: 0px;
+    font-family: 'sailec-medium';
+    font-size: 12px;
+}
+
+@media only screen and (min-width:900px) and (max-width:1025px) {
+    .footer {
+        background-color: black;
+        height: 45vh;
+    }
+
+    .links {
+        text-align: center;
+        padding: 3.5% 10% 0%;
+    }
+
+    .links li a {
+        font-family: 'sailec-medium';
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-right: 50px;
+    }
+
+    #follow-us-on {
+        color: grey;
+        font-family: 'sailec-bold';
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    #linkedin {
+        margin-bottom: 5px;
+    }
+
+    .links img:hover {
+        opacity: 0.5;
+    }
+
+    footer hr {
+        margin-top: 30px;
+        background-color: grey;
+        height: 3px;
+        border: 1px solid;
+        height: 5px;
+    }
+
+    .copyright {
+        color: white;
+        margin-top: 30px;
+        font-family: 'sailec-medium';
+        font-size: 12px;
+    }
+
+    .rights {
+        color: white;
+        margin-top: 0px;
+        font-family: 'sailec-medium';
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .footer {
+        background-color: black;
+        height: 67vh;
+        width: 100vw;
+    }
+
+    .links {
+        text-align: center;
+        padding: 0% 15% 0%;
+    }
+
+    .links li a {
+        font-family: 'sailec-medium';
+        text-decoration: none;
+        display: block;
+        color: white;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    #follow-us-on {
+        color: grey;
+        font-family: 'sailec-bold';
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    #linkedin {
+        margin-bottom: 5px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+    .links img:hover {
+        opacity: 0.5;
+    }
+
+    footer hr {
+        display: none;
+    }
+
+    .copyright {
+        color: white;
+        margin-top: 30px;
+        font-family: 'sailec-medium';
+        font-size: 12px;
+    }
+
+    .rights {
+        color: white;
+        margin-top: 0px;
+        font-family: 'sailec-medium';
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .footer {
+        background-color: black;
+        height: 90vh;
+    }
+
+    .links {
+        text-align: center;
+        padding: 3.5% 15% 0%;
+    }
+
+    .links li a {
+        font-family: 'sailec-medium';
+        text-decoration: none;
+        display: block;
+        color: white;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    #follow-us-on {
+        color: grey;
+        font-family: 'sailec-bold';
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    #linkedin {
+        margin-bottom: 5px;
+        ;
+        margin-right: 10px;
+    }
+
+    .links img:hover {
+        opacity: 0.5;
+    }
+
+    .footer hr {
+        display: none;
+    }
+
+    .copyright {
+        color: white;
+        margin-top: 30px;
+        margin-left: -10px;
+        font-family: 'sailec-medium';
+        font-size: 12px;
+        width: 40vh;
+    }
+
+    .rights {
+        color: white;
+        margin-top: 0px;
+        font-family: 'sailec-medium';
+        font-size: 12px;
+    }
+}

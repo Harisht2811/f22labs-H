@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "sailec-thin";
+    src: url('fonts/Thin.ttf');
+
+}
+
+@font-face {
+    font-family: "sailec-light";
+    src: url('fonts/Light.ttf');
+}
+
+@font-face {
+    font-family: "sailec-regular";
+    src: url('fonts/regular.otf');
+}
+
+@font-face {
+    font-family: "sailec-medium";
+    src: url('fonts/Medium.ttf');
+}
+
+@font-face {
+    font-family: "sailec-bold";
+    src: url('fonts/Bold.ttf');
+}
+
+
+.casestudies {
+    position: relative;
+    background-color: rgb(249, 249, 249);
+    height: 700px;
+    z-index: 0;
+    padding: 170px 340px 30px;
+}
+
+.casestudies-heading {
+    position: absolute;
+    width: 60%;
+    z-index: 0;
+}
+
+.casestudies-heading h2 {
+    color: rgb(139, 139, 139);
+    font-family: "sailec-light";
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.casestudies-heading h1 {
+    color: #000;
+    font-family: "sailec-bold";
+    font-weight: 000;
+    font-size: 24px;
+    margin-top: 16px;
+    width: 52%;
+}
+
+.casestudies-heading img {
+    margin-bottom: 15px;
+}
+
+.casestudies-content {
+    position: absolute;
+    z-index: 0;
+    top: 410px;
+    width: 31%;
+    font-size: 14px;
+    font-family: "sailec-medium";
+}
+
+.casestudies-content p {
+    margin-bottom: 30px;
+}
+
+.bullet {
+    background-color: rgb(253, 171, 79);
+    padding: 5px;
+    display: inline;
+    margin-top: 16px;
+    margin-right: 10px;
+    float: left;
+    width: 1%;
+    border-radius: 50%;
+}
+
+
+.casestudies-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 3;
+}
+
+
+.casestudies-img {
+    position: absolute;
+    bottom: 0;
+    right: 332px;
+    z-index: 0;
+    background-color: #fdab4f;
+    border-radius: 150px 150px 0 0;
+    height: 585px;
+    width: 420px;
+}
+
+.casestudies-image {
+    width: 302px;
+    height: 600px;
+    position: absolute;
+    bottom: 60px;
+    right: 390px;
+    z-index: 0;
+}
+
+
+@media only screen and (min-width:900px) and (max-width:1025px) {
+
+    .casestudies {
+        height: 680px;
+        padding: 80px 80px 30px;
+    }
+
+    .casestudies-heading {
+        width: 70%;
+    }
+
+    .casestudies-heading h2 {
+        font-size: 17px;
+    }
+
+    .casestudies-heading h1 {
+        font-size: 22px;
+    }
+
+    .casestudies-content {
+        top: 340px;
+        width: 40%;
+        font-size: 14px;
+    }
+
+    .casestudies-content p {
+        margin-bottom: 35px;
+        line-height: 1.8;
+    }
+
+    .casestudies-content ul {
+        line-height: 1.2;
+        margin-top: -10px;
+    }
+
+    .casestudies-content li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: left;
+        width: 95%;
+    }
+
+    .bullet {
+        margin-top: 12px;
+    }
+
+    .casestudies-img {
+        bottom: 0;
+        right: 70px;
+        height: 570px;
+        width: 400px;
+    }
+
+    .casestudies-image {
+        width: 290px;
+        height: 580px;
+        bottom: 60px;
+        right: 120px;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .casestudies {
+        height: 740px;
+        padding: 80px 50px 30px;
+    }
+
+    .casestudies-heading {
+        width: 70%;
+    }
+
+    .casestudies-heading h2 {
+        font-size: 17px;
+    }
+
+    .casestudies-heading h1 {
+        font-size: 22px;
+    }
+
+    .casestudies-content {
+        top: 340px;
+        width: 43%;
+        font-size: 14px;
+    }
+
+    .casestudies-content p {
+        margin-bottom: 30px;
+        line-height: 1.8;
+        text-align: justify;
+    }
+
+    .casestudies-content ul {
+        line-height: 1.2;
+    }
+
+    .casestudies-content li {
+        margin-top: 10px;
+        margin-bottom: 16px;
+        float: left;
+        width: 88%;
+    }
+
+    .bullet {
+        margin-top: 12px;
+    }
+
+    .casestudies-img {
+        bottom: 0;
+        right: 40px;
+        height: 540px;
+        width: 290px;
+    }
+
+    .casestudies-image {
+        width: 290px;
+        height: 600px;
+        bottom: 60px;
+        right: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .casestudies {
+        height: 1050px;
+        width: 100vw;
+        background-color: #fff;
+        padding: 50px 0px 30px;
+    }
+
+    .casestudies-heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .casestudies-heading h2 {
+        font-size: 12px;
+        font-family: "sailec-medium";
+        font-weight: 500;
+    }
+
+    .casestudies-heading h1 {
+        font-size: 22px;
+        width: 90%;
+        margin-top: 0px;
+        padding-left: 30px;
+    }
+
+    .casestudies-content {
+        top: 660px;
+        text-align: center;
+        width: 100%;
+        background-color: rgb(249, 249, 249);
+        font-size: 14px;
+        padding-bottom: 50px;
+    }
+
+    .casestudies-content p {
+        margin-bottom: 30px;
+        line-height: 1.8;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 8%;
+        width: 80%;
+    }
+
+    .casestudies-content ul {
+        line-height: 1.2;
+        font-size: 12px;
+        width: 90%;
+        padding-left: 30px;
+    }
+
+    .casestudies-content li {
+        margin-top: 10px;
+        text-align: left;
+        margin-bottom: 16px;
+        float: left;
+        width: 92%;
+    }
+
+    .bullet {
+        margin-top: 12px;
+    }
+
+    .casestudies-img {
+        display: none;
+    }
+
+    .casestudies-image {
+        width: 210px;
+        height: 420px;
+        top: 350px;
+        right: 80px;
+    }
+
+}

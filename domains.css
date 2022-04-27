@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "sailec-thin";
+    src: url('fonts/Thin.ttf');
+
+}
+
+@font-face {
+    font-family: "sailec-light";
+    src: url('fonts/Light.ttf');
+}
+
+@font-face {
+    font-family: "sailec-regular";
+    src: url('fonts/regular.otf');
+}
+
+@font-face {
+    font-family: "sailec-medium";
+    src: url('fonts/Medium.ttf');
+}
+
+@font-face {
+    font-family: "sailec-bold";
+    src: url('fonts/Bold.ttf');
+}
+
+.domains {
+    /* background-color: #fdab4f; */
+    height: 100vh;
+    padding: 6% 0%;
+}
+
+.domains h1 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "sailec-bold";
+    font-weight: 900;
+}
+
+.domains-we-worked h1 {
+    font-family: "sailec-bold";
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.domains-we-worked {
+    padding: 2% 27% 2%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.domains-we-worked div {
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-family: "sailec-bold";
+    border: 0.5px solid rgba(229, 231, 235, 0.5);
+
+}
+
+#domain1,
+#domain2,
+#domain3,
+#domain4 {
+    border-top: none;
+}
+
+#domain1,
+#domain5,
+#domain9,
+#domain13 {
+    border-left: none;
+}
+
+#domain4,
+#domain8,
+#domain12,
+#domain16 {
+    border-right: none;
+}
+
+#domain13,
+#domain14,
+#domain15,
+#domain16 {
+    border-bottom: none;
+}
+
+.domains button {
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: "sailec-bold";
+    color: #fff;
+    background-color: black;
+    padding: 15px 75px;
+    border: none;
+    margin: 30px 42% 80px;
+    cursor: pointer;
+}
+
+.domains button:hover {
+    background-color: rgb(253, 171, 79);
+    outline: none;
+    border: none;
+}
+
+
+@media only screen and (min-width:900px) and (max-width:1025px) {
+    .domains {
+        height: 128vh;
+        padding-top: 10%;
+    }
+
+    .domains-we-worked {
+        padding: 4% 21% 2%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .domains button {
+        width: 250px;
+        margin: 50px 40% 150px;
+        padding: 10px 40px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .domains {
+        height: 1020px;
+    }
+
+    .domains-we-worked {
+        padding: 6% 19% 2%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .domains-head {
+        font-size: 24px;
+    }
+
+    #domain5 {
+        border-left: 0.5px solid rgba(229, 231, 235, 0.5);
+    }
+
+    #domain8,
+    #domain16 {
+        border-right: 0.5px solid rgba(229, 231, 235, 0.5);
+    }
+
+    #domain14,
+    #domain15 {
+        border-bottom: 0.5px solid rgba(229, 231, 235, 0.5);
+    }
+
+    #domain4,
+    #domain7,
+    #domain10,
+    #domain16 {
+        border-left: none;
+    }
+
+    #domain3,
+    #domain6,
+    #domain9,
+    #domain15 {
+        border-right: none;
+    }
+
+    .domains-we-worked div {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+
+    .domains button {
+        padding: 12px 55px;
+        border: none;
+        width: 240px;
+        margin: 40px 34% -100px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+    .domains {
+        height: 175vh;
+    }
+
+    .domains-we-worked {
+        padding: 8% 3% 2%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #domains-head {
+        margin-top: 30px;
+        font-size: 22px;
+        width: 60%;
+        margin-left: 20%
+    }
+
+
+    #domain3,
+    #domain4 {
+        border-top: 0.5px solid rgba(229, 231, 235, 0.5);
+    }
+
+    #domain13,
+    #domain14 {
+        border-bottom: 0.5px solid rgba(229, 231, 235, 0.5);
+    }
+
+    #domain4,
+    #domain7,
+    #domain10,
+    #domain16 {
+        border-left: 0.5px solid rgba(229, 231, 235, 0.5);
+    }
+
+    #domain3,
+    #domain9,
+    #domain15 {
+        border-right: 0.5px solid rgba(229, 231, 235, 0.5);
+    }
+
+    #domain15 {
+        border-bottom: none;
+    }
+
+    #domain3,
+    #domain5,
+    #domain7,
+    #domain11,
+    #domain15 {
+        border-left: none;
+    }
+
+    #domain2,
+    #domain8,
+    #domain10,
+    #domain14,
+    #domain16 {
+        border-right: none;
+    }
+
+    .domains button {
+        padding: 10px 35px;
+        margin: 50px 20% 80px;
+    }
+
+}

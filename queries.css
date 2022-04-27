@@ -1,0 +1,649 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'sailec-thin';
+    src: url('fonts/Thin.ttf');
+}
+
+@font-face {
+    font-family: 'sailec-bold';
+    src: url('fonts/Bold.ttf');
+}
+
+@font-face {
+    font-family: 'sailec-medium';
+    src: url('fonts/Medium.ttf');
+}
+
+@font-face {
+    font-family: 'sailec-regular';
+    src: url('fonts/Light.ttf');
+}
+
+.Queries {
+    background-color: rgb(253, 171, 79);
+    height: 90vh;
+    padding: 5% 15% 3% 15%;
+}
+
+.queries-inner {
+    background-color: white;
+    height: 70vh;
+    width: 70vw;
+    padding: 6% 3% 3% 5%;
+    display: flex;
+}
+
+.contact h2 {
+    font-family: 'sailec-bold';
+    font-size: 30px;
+    word-spacing: 6px;
+}
+
+.contact p {
+    font-family: 'sailec-medium';
+    font-size: 13px;
+    width: 500px;
+    font-weight: normal;
+    margin-top: 30px;
+    line-height: 1.9;
+}
+
+#Mobile {
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+#Mail {
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.profile1 {
+    background-color: rgb(249, 249, 249);
+    margin-top: 20px;
+    height: 12vh;
+    width: 25vw;
+    display: flex;
+}
+
+.profile1 svg {
+    display: block;
+    margin-bottom: -10px;
+}
+
+.profile1 img {
+    height: 50px;
+    width: 50px;
+    margin: 40% 40%;
+    border-radius: 10px;
+}
+
+.details1 {
+    display: block;
+    margin: 10px 0 0 40px;
+    line-height: 2;
+}
+
+.details1 h3 {
+    font-family: 'sailec-bold';
+}
+
+.profile2 {
+    background-color: rgb(249, 249, 249);
+    margin-top: 20px;
+    height: 12vh;
+    width: 25vw;
+    display: flex;
+}
+
+.profile2 svg {
+    display: block;
+    margin-bottom: -10px;
+}
+
+
+
+.profile2 img {
+    height: 50px;
+    width: 50px;
+    margin: 40% 40%;
+    border-radius: 10px;
+}
+
+.details2 {
+    display: block;
+    margin: 10px 0 0 40px;
+    line-height: 2;
+}
+
+.details2 h3 {
+    font-family: 'sailec-bold';
+}
+
+.location {
+    background-color: rgb(249, 249, 249);
+    margin-top: 20px;
+    height: 8vh;
+    width: 25vw;
+    display: flex;
+}
+
+.location svg {
+    margin: 4% 4%;
+}
+
+.location p {
+    font-family: 'sailec-medium';
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.enquiry input:focus::placeholder {
+    color: transparent;
+}
+
+.enquiry input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(5, 37, 218);
+}
+
+.enquiry label {
+    display: none;
+}
+
+.enquiry input {
+    display: block;
+    margin-left: 110px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    width: 550px;
+    font-family: 'sailec-regular';
+    font-size: 16px;
+}
+
+.enquiry textarea:focus {
+    outline: 2px solid rgb(5, 37, 218);
+    border: none;
+}
+
+.enquiry textarea:hover {
+    border: 2px solid black;
+}
+
+.enquiry textarea {
+    resize: none;
+    margin-left: 110px;
+    height: 150px;
+    width: 550px;
+    padding: 2% 1%;
+    font-family: 'sailec-medium';
+    font-size: 16px;
+}
+
+.enquiry textarea:focus {
+    border: none;
+}
+
+.enquiry button:hover {
+    background-color: rgb(253, 171, 79);
+    outline: none;
+    border: none;
+}
+
+.enquiry button {
+    width: 550px;
+    margin-top: 50px;
+    margin-left: 110px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-family: 'sailec-bold';
+    font-size: 16px;
+    padding: 2% 1% 0 2;
+    cursor: pointer;
+
+}
+
+.phone-number {
+    display: flex;
+}
+
+.phone-number option {
+    padding: 10px;
+}
+
+.phone-number select:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(59, 130, 246, 0.5);
+}
+
+.phone-number select {
+    margin-left: 110px;
+    margin-top: 12px;
+    height: 40px;
+    width: 50px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.phone-number #contact {
+    width: 460px;
+    margin-left: 40px;
+}
+
+@media only screen and (min-width:900px) and (max-width:1025px) {
+    .Queries {
+        background-color: white;
+        padding: 0;
+        height: 150vh;
+    }
+
+    .queries-inner {
+        display: block;
+        width: 102vw;
+    }
+
+    .contact {
+        background-color: rgb(253, 171, 79);
+        width: 98vw;
+        margin-left: -40px;
+        padding: 3% 35%;
+    }
+
+    .contact h2 {
+        width: 500px;
+        color: white;
+        margin-left: -50px;
+    }
+
+    .contact br {
+        display: none;
+    }
+
+    .contact p {
+        width: 600px;
+        color: white;
+        font-size: 12px;
+        margin-left: -100px;
+    }
+
+    .profile1 {
+        background-color: rgb(249, 249, 249);
+        height: 15vh;
+        width: 30vw;
+    }
+
+    #Mobile {
+        color: black;
+    }
+
+    #Mail {
+        color: black;
+    }
+
+    .profile1 svg {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .profile1 img {
+        height: 50px;
+        width: 50px;
+        margin: 40% 40%;
+        border-radius: 10px;
+    }
+
+    .details1 {
+        display: block;
+        margin: 20px 0 0 40px;
+        line-height: 2;
+    }
+
+    .profile2 {
+        background-color: rgb(249, 249, 249);
+        height: 15vh;
+        width: 30vw;
+    }
+
+    .profile2 svg {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .profile2 img {
+        height: 50px;
+        width: 50px;
+        margin: 40% 40%;
+        border-radius: 10px;
+    }
+
+    .details2 {
+        display: block;
+        margin: 20px 0 0 40px;
+        line-height: 2;
+    }
+
+
+    .location {
+        display: none;
+    }
+
+    .enquiry {
+        background-color: white;
+        margin-top: 50px;
+    }
+
+    .enquiry input {
+        width: 1000px;
+        margin-left: -40px;
+    }
+
+    .enquiry textarea {
+        width: 1000px;
+        margin-left: -40px;
+    }
+
+    .enquiry button {
+        width: 1000px;
+        margin-left: -40px;
+        margin-top: 50px;
+    }
+
+    .phone-number select {
+        margin-left: -40px;
+    }
+
+    .phone-number #contact {
+        width: 1200px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .Queries {
+        background-color: white;
+        padding: 0;
+        height: 120vh;
+    }
+
+    .queries-inner {
+        display: block;
+        width: 102vw;
+    }
+
+    .contact {
+        background-color: rgb(253, 171, 79);
+        width: 98vw;
+        margin-left: -40px;
+        padding: 3% 35%;
+    }
+
+    .contact h2 {
+        width: 500px;
+        color: white;
+        margin-left: -50px;
+    }
+
+    .contact br {
+        display: none;
+    }
+
+    .contact p {
+        width: 600px;
+        color: white;
+        font-size: 12px;
+        margin-left: -100px;
+    }
+
+    .profile1 {
+        background-color: rgb(249, 249, 249);
+        height: 15vh;
+        width: 40vw;
+    }
+
+    #Mobile {
+        color: black;
+    }
+
+    #Mail {
+        color: black;
+    }
+
+    .profile1 svg {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .profile1 img {
+        height: 50px;
+        width: 50px;
+        margin: 40% 40%;
+        border-radius: 10px;
+    }
+
+    .details1 {
+        display: block;
+        margin: 20px 0 0 40px;
+        line-height: 2;
+    }
+
+    .profile2 {
+        background-color: rgb(249, 249, 249);
+        height: 15vh;
+        width: 40vw;
+    }
+
+    .profile2 svg {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .profile2 img {
+        height: 50px;
+        width: 50px;
+        margin: 40% 40%;
+        border-radius: 10px;
+    }
+
+    .details2 {
+        display: block;
+        margin: 20px 0 0 40px;
+        line-height: 2;
+    }
+
+
+    .location {
+        display: none;
+    }
+
+    .enquiry {
+        background-color: white;
+        margin-top: 50px;
+    }
+
+    .enquiry input {
+        width: 730px;
+        margin-left: -20px;
+    }
+
+    .enquiry textarea {
+        margin-left: -30px;
+        width: 97vw;
+    }
+
+    .enquiry button {
+        width: 250px;
+        margin-left: 230px;
+        margin-top: 90px;
+    }
+
+    .phone-number select {
+        margin-left: -20px;
+    }
+
+    .phone-number #contact {
+        width: 645px;
+    }
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .Queries {
+        background-color: white;
+        padding: 0;
+        height: 150vh;
+    }
+
+    .queries-inner {
+        display: block;
+        width: 102vw;
+    }
+
+    .contact {
+        background-color: rgb(253, 171, 79);
+        width: 130vw;
+        padding: 3% 35%;
+        height: 70vh;
+    }
+
+    .contact h2 {
+        width: 300px;
+        text-align: center;
+        color: white;
+        margin-left: -60px;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .contact br {
+        display: none;
+    }
+
+    .contact p {
+        width: 300px;
+        color: white;
+        font-size: 12px;
+        margin-left: -50px;
+    }
+
+    #aboutus {
+        text-align: center;
+        width: 260px;
+    }
+
+    .profile1 {
+        background-color: rgb(249, 249, 249);
+        height: 15vh;
+        width: 70vw;
+        margin-left: -50px;
+    }
+
+    #Mobile {
+        color: black;
+        margin-top: -30px;
+    }
+
+    #Mail {
+        color: black;
+        margin-top: -30px;
+    }
+
+    .profile1 svg {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .profile1 img {
+        height: 50px;
+        width: 50px;
+        margin: 40% 40%;
+        border-radius: 10px;
+    }
+
+    .details1 {
+        display: block;
+        margin: 20px 0 0 40px;
+        line-height: 2;
+    }
+
+    .profile2 {
+        background-color: rgb(249, 249, 249);
+        height: 15vh;
+        width: 70vw;
+        margin-left: -50px;
+    }
+
+    .profile2 svg {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .profile2 img {
+        height: 50px;
+        width: 50px;
+        margin: 40% 40%;
+        border-radius: 10px;
+    }
+
+    .details2 {
+        display: block;
+        margin: 20px 0 0 40px;
+        line-height: 2;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .enquiry {
+        background-color: white;
+        margin-top: 50px;
+    }
+
+    .enquiry input {
+        width: 350px;
+        margin-left: -10px;
+    }
+
+    .enquiry textarea {
+        margin-left: 0px;
+        width: 90vw;
+    }
+
+    .enquiry button {
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .phone-number select {
+        margin-left: -10px;
+    }
+
+    .phone-number #contact {
+        width: 260px;
+    }
+}
